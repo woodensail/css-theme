@@ -1,0 +1,57 @@
+.container {
+  padding-top: 100px;
+}
+
+.container .title {
+  font-size: 64px;
+  color: #43aff7;
+  line-height: normal;
+  text-align: center;
+}
+
+.container .desc {
+  font-size: 24px;
+  color: #72c7ff;
+  line-height: normal;
+  text-align: center;
+}
+
+.container .btn-set {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.container .btn-set .btn {
+  width: 60px;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.skin_red .container .title {
+  color: #ff0000;
+}
+
+.skin_red .container .desc {
+  color: #ff8888;
+}
+
+.skin_green .container .title {
+  color: #34cf51;
+}
+
+.skin_green .container .desc {
+  color: #50dc6a;
+}
+
+.skin_blue .container .title {
+  color: #43aff7;
+}
+
+.skin_blue .container .desc {
+  color: #72c7ff;
+}

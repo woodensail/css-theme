@@ -1,0 +1,32 @@
+@dark: #theme1;
+@light: #theme2;
+
+.container {
+  padding-top: 100px;
+  .title {
+    font-size: 64px;
+    color: @dark;
+    line-height: normal;
+    text-align: center;
+  }
+  .desc {
+    font-size: 24px;
+    color: @light;
+    line-height: normal;
+    text-align: center;
+  }
+  .btn-set {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    .btn{
+      width: 60px;
+      line-height: 30px;
+      font-size: 20px;
+      text-align: center;
+      border-radius: 4px;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+  }
+}
