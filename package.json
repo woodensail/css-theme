@@ -1,6 +1,6 @@
 {
   "name": "css-theme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Use one source file to generate multiple themes and compress into single css file.",
   "main": "index.js",
   "directories": {
