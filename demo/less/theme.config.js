@@ -29,5 +29,8 @@ module.exports = {
       },
       'rootClass': 'skin_blue'
     },
-  ]
+  ],
+  themeFragmentHandle(fragment, theme){
+    return `.${theme.rootClass}{height:100%}\n` + fragment;
+  }
 };
