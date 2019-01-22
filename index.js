@@ -1,5 +1,11 @@
-const parser = require('./lib/parser');
-const less = require('./lib/less');
-const gulp = require('./lib/gulp');
-
-module.exports = {parser: parser, less: less, gulp: gulp};
+module.exports = function (opts) {
+  if (opts.postcss) {
+    return require('./lib/postcss')(opts);
+  }
+  if (opts.less) {
+    return new (require('./lib/less'))(opts);
+  }
+  if (opts.gulp) {
+    return require('./lib/gulp')(opts);
+  }
+};
